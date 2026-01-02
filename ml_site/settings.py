@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-s8u2*%uq^(4_$**p5i9#dl@0p!$a753lclexr()m(7wietp69c
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["decisiontree-ugr-6190-15-biruk-dereje-ml.onrender.com"]
 
 
 # Application definition
