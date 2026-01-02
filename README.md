@@ -1,1 +1,1 @@
-# DecisionTree-UGR-6190-15-ML_Lab
+# LogisticsRegression-UGR-6190-15-ML_Lab
