@@ -75,8 +75,6 @@
 
    <body>
       <div class="card">
-         <h2>Iris Classifier 🌸</h2>
-
          <form method="post">
             {% csrf_token %}
             <input name="sepal_length" placeholder="Sepal Length" required />
@@ -91,7 +89,7 @@
          <div class="result">Prediction: {{ prediction }}</div>
          {% endif %}
 
-         <div class="footer">Decision Tree • Django • ML Demo</div>
+         <div class="footer">Logistics Regression Demo</div>
       </div>
    </body>
 </html>

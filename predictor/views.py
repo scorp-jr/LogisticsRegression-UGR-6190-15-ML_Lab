@@ -17,6 +17,7 @@ def home(request):
             float(request.POST["petal_length"]),
             float(request.POST["petal_width"]),
         ]])
-        prediction = model.predict(X)[0]
+        labels = ["Setosa", "Versicolor", "Virginica"]
+        prediction = labels[model.predict(X)[0]]
 
     return render(request, "index.html", {"prediction": prediction})
